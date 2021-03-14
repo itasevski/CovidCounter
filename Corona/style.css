@@ -1,0 +1,49 @@
+#myContainer {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#subheaders ul li {
+    display: inline;
+    margin: 50px;
+}
+
+#date {
+    color: indianred;
+}
+
+#total_cases {
+    font-size: 100px;
+    color: whitesmoke;
+}
+
+#deaths, #recoveries {
+    font-size: 50px;
+}
+
+#deaths {
+    color: red;
+}
+
+#recoveries {
+    color: lawngreen;
+}
+
+#flags img {
+    width: 165px;
+    height: 80px;
+    margin: 15px;
+}
+
+#us-div, #mk-div {
+    padding-top: 60px;
+}
+
+#mk-div {
+    margin-left: -5px;
+}
+
+#us-div span, #mk-div span {
+    margin-right: 25px;
+}
+

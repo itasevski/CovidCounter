@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CORONA VIRUS CASES</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+
+<body onload="setDate()" style="background-color: #222222; margin: 0; padding: 0;">
+<div id="myContainer">
+    <div id="date-container">
+        <h6 id="date">DATE</h6>
+    </div>
+    <div id="header">
+        <h1 id="total_cases">CASES GO HERE</h1>
+    </div>
+    <div id="subheaders">
+        <ul id="list">
+            <li id="deaths">DEATHS</li>
+            <li id="recoveries">RECOVERIES</li>
+        </ul>
+    </div>
+    <div id="flags">
+        <div id="us-div">
+            <img src="220px-Flag_of_the_United_States.svg.png"/>
+            <span id="us-confirmed-cases" style="color: whitesmoke; font-size: 25px;">USA</span>
+            <span id="us-deaths" style="color: red; font-size: 25px;">USA</span>
+            <span id="us-recoveries" style="color: lawngreen; font-size: 25px;">USA</span>
+        </div>
+        <div id="mk-div">
+            <img src="255px-Flag_of_North_Macedonia.svg.png"/>
+            <span id="mk-confirmed-cases" style="color: whitesmoke; font-size: 25px;">MK</span>
+            <span id="mk-deaths" style="color: red; font-size: 25px;">MK</span>
+            <span id="mk-recoveries" style="color: lawngreen; font-size: 25px;">MK</span>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
